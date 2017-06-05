@@ -1,0 +1,17 @@
+body {
+	margin:0;
+	padding:0;
+}
+
+	#wrap {
+	  width:600px;
+	  margin:0 auto;
+	}
+
+	.navbar-form {
+		padding:0;
+	}
+
+	img {
+		cursor: pointer;
+	}
