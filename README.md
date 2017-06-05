@@ -26,14 +26,13 @@ The client should not be running, and should've opened up a tab in your browser,
 
 ### Docker
 
-The server app has a Dockerfile included, and you can build a docker container using docker-machine and docker-build locally.
+The server app has a Dockerfile included, and you can build a docker container using `docker-machine` and `docker-build` locally.
 
 ### Testing
 There are some basic tests set-up for the server API project, to access just run the following commands from the root.
 
-Note: Using some 3rd party libraries including: Mocha, Chai and Async.
+*Note: Using some 3rd party libraries including: Mocha, Chai and Async.*
 
-Once again, fire up a terminal window and run the following commands from the project root.
 ```sh
 $ cd server
 $ npm test
