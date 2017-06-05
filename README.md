@@ -10,7 +10,7 @@ Top Artists App requires [Node.js](https://nodejs.org/) v4+ to run.
 Simply fire up a terminal window and run the following commands from the project root.
 ```sh
 $ cd server
-$ npm install & npm start
+$ npm install && npm start
 ```
 The Server should now be running on Port 3000. To test this, fire up Postman (or your browser) and navigate to: http://localhost:3000/topArtists
 
@@ -19,7 +19,7 @@ The Server should now be running on Port 3000. To test this, fire up Postman (or
 Once again, fire up a terminal window and run the following commands from the project root.
 ```sh
 $ cd client
-$ npm install & npm start
+$ npm install && npm start
 ```
 The client should not be running, and should've opened up a tab in your browser, but if not, you can navigate to http://localhost:3001
 
