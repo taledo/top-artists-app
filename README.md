@@ -41,11 +41,12 @@ $ npm test
 ### TODO
 
 The following are items of work needed to better improve the codebase of this project:
-** Server **
+
+**Server**
 - More unit tests, including failing scenarios etc.
 - More validation around the LastFM API and data
 
-** Client ** 
+**Client** 
 - Apply more DRY principals and abstraction with methods
 - Add unit tests
 
