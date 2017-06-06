@@ -4,7 +4,7 @@ Welcome to the **Top Artists App** Project.
 The project is split into folders, named appropriately for the client and server. Follow the installation instructions below.
 
 ## Installation
-Top Artists App requires [Node.js](https://nodejs.org/) v4+ to run.
+Top Artists App requires [Node.js](https://nodejs.org/) v6+ to run.
 
 ### Server (API)
 Simply fire up a terminal window and run the following commands from the project root.
@@ -21,7 +21,7 @@ Once again, fire up a terminal window and run the following commands from the pr
 $ cd client
 $ npm install && npm start
 ```
-The client should not be running, and should've opened up a tab in your browser, but if not, you can navigate to http://localhost:3001
+The client should now be running, and should've opened up a tab in your browser, but if not, you can navigate to http://localhost:3001
 
 
 ### Docker
@@ -37,6 +37,17 @@ There are some basic tests set-up for the server API project, to access just run
 $ cd server
 $ npm test
 ```
+
+### TODO
+
+The following are items of work needed to better improve the codebase of this project:
+** Server **
+- More unit tests, including failing scenarios etc.
+- More validation around the LastFM API and data
+
+** Client ** 
+- Apply more DRY principals and abstraction with methods
+- Add unit tests
 
 
 ### Notes
